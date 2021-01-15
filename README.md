@@ -1,6 +1,6 @@
 # ObjectDetection
 
-Requirements:
+**Requirements:**
 
 tensorflow
 
@@ -9,7 +9,7 @@ keras
 numpy
 
 
-Setup:
+**Setup:**
 
 https://pjreddie.com/darknet/yolo/ to download pretrained weights in the folder
 
