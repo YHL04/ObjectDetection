@@ -1,11 +1,14 @@
 # ObjectDetection
-raw python code
 
-pip install tensorflow
-pip install tensorflow-gpu for gpu support
+Requirements:
+tensorflow
+keras
+numpy
 
-pip install keras
+Setup:
+https://pjreddie.com/darknet/yolo/ to download pretrained weights in the folder
+run create_keras_model.py to create keras compatible model
+run predict.py to run object detection with a webcam
 
-go to https://pjreddie.com/darknet/yolo/ to download pretrained weights
 
-create_keras_model.py copied from experiencor
+create_keras_model.py from https://github.com/experiencor/keras-yolo3
